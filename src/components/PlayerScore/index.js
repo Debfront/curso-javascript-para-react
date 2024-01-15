@@ -1,12 +1,13 @@
-
-
-function PlayerNumber() {
-    return `
-      <article class="card-game">
-       <h1> Player 1 </h1>
-      </article>
-    `;
-
+function PlayerScore(points = 0){
+  return /*html*/`
+    <ol data-points= "${points}" >
+      <li>Um</li>
+      <li>dois</li>
+      <li>três</li>
+    </ol>
+  
+  `;
+  
 }
 
-export default PlayerNumber;
+export default PlayerScore;
